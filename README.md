@@ -16,6 +16,7 @@ import FastImage from 'react-native-esoftplay-fast-image'
 <FastImage
   uri={string image uri}
   width={70}
+  style={style properties for Image}
   height={50}
   quality={1} 
   resizeMode={'contain'|'cover'}
