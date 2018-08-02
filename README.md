@@ -1,6 +1,6 @@
 # react-native-esoftplay-fast-image
-* fast image for react native  : support expo
-
+fast image for react native  : support expo
+rendering image with adaptation for device pixel 
 
 
 ### INSTALATION
