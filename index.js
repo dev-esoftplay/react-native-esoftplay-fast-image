@@ -1,4 +1,4 @@
-import React from '../react'
+import * as React from '../react'
 import { Image, PixelRatio, ImageEditor, StyleSheet, View } from '../../node_modules/react-native/Libraries/react-native/react-native-implementation.js';
 import { configConsole } from '../../config'
 
@@ -91,7 +91,7 @@ export default class FastImage extends React.PureComponent {
     if (!this.state.image) {
       var s = Object.assign({}, style)
       delete s['resizeMode']
-      return <View style={[{ backgroundColor: '#f5f5f5' }, { ...s }]} />
+      return <View style={[{ backgroundColor: 'transparent' }, { ...s }]} />
     }
     return <Image style={[{ resizeMode: 'contain' }, { ...style }]} source={this.state.image} />
   }

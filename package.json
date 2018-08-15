@@ -1,6 +1,6 @@
 {
   "name": "react-native-esoftplay-fast-image",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "fast image for react native : support for expo",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/dev-esoftplay/react-native-esoftplay-fast-image/issues"
   },
-  "homepage": "https://github.com/dev-esoftplay/react-native-esoftplay-fast-image#readme"
+  "homepage": "https://github.com/dev-esoftplay/react-native-esoftplay-fast-image#readme",
+  "dependencies": {}
 }
